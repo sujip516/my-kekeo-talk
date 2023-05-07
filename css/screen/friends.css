@@ -1,0 +1,99 @@
+.user-bar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 80px;
+  padding: var(--padding);
+}
+
+.user-message {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.user-message h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.status-message {
+  width: 150px;
+  height: 30px;
+  padding: 3px;
+  font-size: 18px;
+  position: absolute;
+  right: 60px;
+  border: 1px solid var(--gray);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friend-status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--gray);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 1px solid var(--lightgray);
+  padding: 30px 40px 0 40px;
+}
+
+.update-friend_list {
+  display: flex;
+  justify-content: start;
+  padding: var(--padding);
+}
+
+.update-friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.update-friend:last-child {
+  margin-left: 30px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  background-color: var(--red);
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+
+.user-avatar_small {
+  margin-left: 6px;
+}
+
+.user-name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.friend-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding);
+}
+
+.friend {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.friend-name {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}

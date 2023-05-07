@@ -8,18 +8,22 @@
       src="https://kit.fontawesome.com/87e87ec45f.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>환영합니다</title>
   </head>
   <body>
     <div class="status-bar">
-      <span>10:11</span>
+      <span class="status-bar_time">10:11</span>
       <div id="bezel"></div>
-      <div>
+      <div class="status-bar_icon">
         <i class="fa-solid fa-signal"></i>
         <i class="fa-solid fa-wifi"></i>
         <div class="battery-container">
-          <i class="fa-solid fa-battery-full"></i>
           <div class="battery-icon">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="battery-charging">
             <span>95</span>
             <i class="fa-solid fa-bolt"></i>
           </div>
@@ -37,17 +41,35 @@
       </div>
     </div>
 
-    <div class="nav-bar">
-      <i class="fa-solid fa-user"></i>
-      <div class="nav-icon">
-        <i class="fa-regular fa-comment"></i>
-        <span>1</span>
-      </div>
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <div class="nav-icon">
-        <i class="fa-solid fa-ellipsis"></i>
-        <div class="dot"></div>
-      </div>
-    </div>
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li class="nav-btn">
+          <a class="nav-link" href="friends.html">
+            <i class="fa-solid fa-user"></i>
+          </a>
+        </li>
+        <li class="nav-btn">
+          <a class="nav-link" href="chats.html">
+            <div class="nav-icon">
+              <i class="fa-regular fa-comment"></i>
+              <span>1</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-btn">
+          <a class="nav-link" href="view.html">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </li>
+        <li class="nav-btn">
+          <a class="nav-link" href="more.html">
+            <div class="nav-icon">
+              <i class="fa-solid fa-ellipsis"></i>
+              <div class="dot"></div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>

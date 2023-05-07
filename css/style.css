@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "variable.css";
 
 /* screen */
 @import "screen/chat.css";
@@ -13,3 +14,12 @@
 @import "component/header-bar.css";
 @import "component/nav-bar.css";
 @import "component/status-bar.css";
+@import "component/user-avatar.css";
+
+body {
+  border: 20px solid black;
+  border-radius: 80px;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  color: var(--black);
+}

@@ -1,0 +1,77 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding);
+}
+
+.welcome i {
+  font-size: 150px;
+  margin-top: 130px;
+  position: relative;
+  color: var(--brown);
+}
+
+.welcome h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: var(--yellow);
+  margin-top: 20px;
+  position: absolute;
+  top: 230px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  padding: var(--padding);
+}
+
+.login-form input:not([type="submit"]) {
+  width: 95%;
+  height: 50px;
+  margin-bottom: 40px;
+  border: none;
+  border-bottom: 2px solid var(--lightgray);
+  font-size: 26px;
+  padding: 10px 0;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.login-form input::placeholder {
+  font-size: 26px;
+  color: var(--gray);
+}
+
+.login-form input:not([type="submit"]):focus {
+  outline: none;
+  border-bottom: 2px solid var(--yellow);
+}
+
+.login-form input[type="submit"] {
+  width: 95%;
+  height: 80px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--yellow);
+  font-size: 26px;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.login-auto {
+  width: 95%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.login-auto i:last-child {
+  color: rgb(225, 208, 45);
+}
+
+.find-an_account {
+  font-size: 18px;
+  margin-top: 250px;
+}

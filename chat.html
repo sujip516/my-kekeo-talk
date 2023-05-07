@@ -8,25 +8,28 @@
       src="https://kit.fontawesome.com/87e87ec45f.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>채팅창</title>
   </head>
   <body>
     <div class="status-bar">
-      <span>10:11</span>
+      <span class="status-bar_time">10:11</span>
       <div id="bezel"></div>
-      <div>
+      <div class="status-bar_icon">
         <i class="fa-solid fa-signal"></i>
         <i class="fa-solid fa-wifi"></i>
         <div class="battery-container">
-          <i class="fa-solid fa-battery-full"></i>
           <div class="battery-icon">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="battery-charging">
             <span>95</span>
             <i class="fa-solid fa-bolt"></i>
           </div>
         </div>
       </div>
     </div>
-
     <div class="chat-header_bar">
       <i class="fa-solid fa-chevron-left"></i>
       <h1></h1>

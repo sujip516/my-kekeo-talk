@@ -1,0 +1,48 @@
+.yellow {
+  background-color: var(--yellow);
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--brown);
+}
+
+.user-avatar_lg {
+  width: 120px;
+  height: 120px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-avatar_small {
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apple,
+.rg {
+  background-color: white;
+  border: 1px solid var(--lightgray);
+}
+
+.apple {
+  color: black;
+  font-size: 50px;
+}
+
+.rg {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--deepgray);
+}
+
+.samsung {
+  font-size: 15px;
+  font-weight: 800;
+  background-color: rgb(34, 75, 158);
+  color: white;
+}
