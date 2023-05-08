@@ -13,7 +13,7 @@
 .user-message {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .user-message h2 {
@@ -97,7 +97,7 @@
 }
 
 .friend-name {
-  margin-left: 20px;
+  margin-left: 10px;
   font-size: 18px;
   font-weight: 500;
 }
