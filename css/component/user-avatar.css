@@ -6,15 +6,6 @@
 }
 
 .user-avatar_lg {
-  width: 120px;
-  height: 120px;
-  border-radius: 35px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.user-avatar_small {
   width: 80px;
   height: 80px;
   border-radius: 25px;
@@ -23,26 +14,114 @@
   align-items: center;
 }
 
+.user-avatar_medium {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-avatar_small {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .apple,
-.rg {
+.rg,
+.gyugle {
   background-color: white;
   border: 1px solid var(--lightgray);
 }
 
 .apple {
   color: black;
-  font-size: 50px;
+  font-size: 30px;
+}
+
+.apple-lg {
+  background-color: white;
+  border: 1px solid var(--lightgray);
+  color: black;
+  font-size: 40px;
 }
 
 .rg {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 800;
   color: var(--deepgray);
 }
 
 .samsung {
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 800;
   background-color: rgb(34, 75, 158);
   color: white;
+}
+
+.never {
+  font-size: 15px;
+  font-weight: 700;
+  background-color: rgb(3, 206, 86);
+  color: white;
+}
+
+.never-lg {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgb(3, 206, 86);
+  color: white;
+}
+
+.gyugle {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.gyugle span:first-child,
+.gyugle span:nth-child(4) {
+  color: rgb(63, 128, 236);
+}
+
+.gyugle span:nth-child(2),
+.gyugle span:last-child {
+  color: rgb(225, 30, 39);
+}
+
+.gyugle span:nth-child(3) {
+  color: rgb(244, 182, 7);
+}
+
+.gyugle span:nth-child(5) {
+  color: rgb(49, 163, 79);
+}
+
+.gyugle-lg {
+  font-size: 30px;
+  font-weight: 700;
+  background-color: white;
+  border: 1px solid var(--lightgray);
+}
+
+.gyugle-lg span:first-child,
+.gyugle-lg span:nth-child(4) {
+  color: rgb(63, 128, 236);
+}
+
+.gyugle-lg span:nth-child(2),
+.gyugle-lg span:last-child {
+  color: rgb(225, 30, 39);
+}
+
+.gyugle-lg span:nth-child(3) {
+  color: rgb(244, 182, 7);
+}
+
+.gyugle-lg span:nth-child(5) {
+  color: rgb(49, 163, 79);
 }

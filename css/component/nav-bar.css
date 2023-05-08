@@ -1,14 +1,14 @@
 .nav-bar {
   background-color: rgb(241, 241, 241);
   width: 100%;
+  border-top: 1px solid var(--lightgray);
   border-radius: 30px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   position: fixed;
   left: 0;
   bottom: 0;
-  z-index: -1;
-  padding: 40px 60px 50px 60px;
+  padding: 20px 40px;
   box-sizing: border-box;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .nav-btn a {
-  font-size: 50px;
+  font-size: 30px;
   color: var(--black);
   text-decoration: none;
 }
@@ -31,9 +31,9 @@
 .nav-icon span {
   display: block;
   background-color: var(--red);
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
   font-weight: 700;
   color: white;
   border-radius: 50%;
@@ -41,6 +41,54 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 30px;
-  left: 24px;
+  bottom: 15px;
+  left: 18px;
+  animation: rotate 2s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav-icon:last-child {
+  position: relative;
+}
+.nav-icon .dot {
+  position: absolute;
+  top: 2px;
+  left: 28px;
+}
+
+@keyframes nav-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav-btn {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: nav-animation 0.3s ease-in-out forwards;
+}
+
+.nav-btn:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.nav-btn:nth-child(3) {
+  animation-delay: 0.5s;
+}
+.nav-btn:last-child {
+  animation-delay: 0.8s;
 }

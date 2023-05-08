@@ -1,0 +1,118 @@
+.wallet-main {
+  background-color: var(--yellow);
+  height: 300px;
+  padding: var(--padding);
+  margin-top: 30px;
+}
+
+.wallet-main_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.wallet-main_title div:first-child {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.wallet-main_title div:first-child i {
+  font-size: 20px;
+  margin-left: 5px;
+  color: var(--deepgray);
+}
+
+.wallet-main_title div:last-child {
+  font-size: 20px;
+}
+
+.certificate-get {
+  background-color: white;
+  opacity: 0.8;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.certificate-get div:first-child {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.certificate-get i:last-child {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.wallet-account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.wallet-account_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.wallet-account_btn div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+.wallet-account_btn div:first-child span:nth-child(2n) {
+  color: var(--lightgray);
+}
+
+.wallet-account_btn div:last-child i {
+  margin-right: 10px;
+}
+
+.more-icons {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding);
+  margin-top: 40px;
+}
+
+.icon-first_row,
+.icon-second_row,
+.icon-third_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.icon-first_row div,
+.icon-second_row div,
+.icon-third_row div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.icon-first_row i,
+.icon-second_row i,
+.icon-third_row i {
+  font-size: 30px;
+}
+
+.icon-first_row span,
+.icon-second_row span,
+.icon-third_row span {
+  font-size: 14px;
+  margin-top: 10px;
+}

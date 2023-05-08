@@ -2,7 +2,8 @@
 @import "variable.css";
 
 /* screen */
-@import "screen/chat.css";
+@import "screen/chat-apple.css";
+@import "screen/chat-never.css";
 @import "screen/chats.css";
 @import "screen/friends.css";
 @import "screen/login.css";
@@ -15,11 +16,10 @@
 @import "component/nav-bar.css";
 @import "component/status-bar.css";
 @import "component/user-avatar.css";
+@import "component/no-mobile.css";
 
 body {
-  border: 20px solid black;
-  border-radius: 80px;
-  height: 100vh;
+  height: 180vh;
   font-family: "Open Sans", sans-serif;
   color: var(--black);
 }

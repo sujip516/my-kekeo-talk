@@ -1,10 +1,10 @@
 :root {
-  --gray: rgba(0, 0, 0, 0.4);
+  --gray: rgba(0, 0, 0, 0.3);
   --deepgray: rgba(0, 0, 0, 0.6);
   --lightgray: rgba(0, 0, 0, 0.2);
   --black: rgba(0, 0, 0, 0.8);
   --red: rgb(255, 30, 0);
   --yellow: #fae100;
   --brown: rgb(66, 55, 48);
-  --padding: 0px 40px;
+  --padding: 0px 20px;
 }

@@ -9,35 +9,125 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/style.css" />
-    <title>환영합니다</title>
+    <link
+      href="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F023%2F2023%2F04%2F03%2F0003755557_001_20230403114609249.jpg&type=a340"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <title>설정</title>
   </head>
   <body>
     <div class="status-bar">
-      <span class="status-bar_time">10:11</span>
-      <div id="bezel"></div>
-      <div class="status-bar_icon">
-        <i class="fa-solid fa-signal"></i>
-        <i class="fa-solid fa-wifi"></i>
-        <div class="battery-container">
-          <div class="battery-icon">
-            <div></div>
-            <div></div>
-          </div>
-          <div class="battery-charging">
-            <span>95</span>
-            <i class="fa-solid fa-bolt"></i>
+      <div class="status-bar_column">
+        <span class="status-bar_time">10:11</span>
+      </div>
+
+      <div class="status-bar_column">
+        <div id="bezel"></div>
+      </div>
+
+      <div class="status-bar_column">
+        <div class="status-bar_icon">
+          <i class="fa-solid fa-signal"></i>
+          <i class="fa-solid fa-wifi"></i>
+          <div class="battery-container">
+            <div class="battery-icon">
+              <div></div>
+              <div></div>
+            </div>
+            <div class="battery-charging">
+              <span>95</span>
+              <i class="fa-solid fa-bolt"></i>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="header-bar">
-      <h1>친구</h1>
-      <div class="header-bar_icon">
+    <div class="setting-header_bar">
+      <div class="setting-bar_column">
+        <a href="javascript:history.back();">
+          <i class="fa-solid fa-chevron-left"></i>
+        </a>
+      </div>
+      <div class="setting-bar_column">
+        <h1>설정</h1>
+      </div>
+      <div class="setting-bar_column">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-user-plus"></i>
-        <i class="fa-solid fa-music"></i>
-        <i class="fa-solid fa-gear"></i>
+      </div>
+    </div>
+
+    <div class="setting-user_bar">
+      <div class="user-avatar_lg yellow">
+        <span>KEKEO</span>
+      </div>
+      <div class="setting-user_message">
+        <h2>Kekeo Talk</h2>
+        <span>+82 10-1234-5678</span>
+      </div>
+      <div class="setting-status_message">프로필 관리</div>
+    </div>
+
+    <div class="setting-icon_column">
+      <div>
+        <i class="fa-solid fa-user-lock"></i>
+        <span>케케오계정</span>
+      </div>
+      <div>
+        <i class="fa-solid fa-lock"></i>
+        <span>개인/보안</span>
+      </div>
+      <div>
+        <i class="fa-regular fa-user"></i>
+        <span>친구</span>
+      </div>
+      <div>
+        <i class="fa-regular fa-bell"></i>
+        <span>알림</span>
+      </div>
+      <div>
+        <i class="fa-solid fa-display"></i>
+        <span>화면</span>
+      </div>
+      <div>
+        <i class="fa-solid fa-brush"></i>
+        <span>테마</span>
+      </div>
+      <div>
+        <i class="fa-regular fa-comment"></i>
+        <span>채팅</span>
+      </div>
+      <div>
+        <i class="fa-solid fa-phone"></i>
+        <span>통화</span>
+      </div>
+      <div>
+        <i class="fa-solid fa-flask"></i>
+        <span>실험실</span>
+      </div>
+      <div>
+        <i class="fa-solid fa-ellipsis"></i>
+        <span>기타</span>
+      </div>
+    </div>
+
+    <div class="setting-icon_column">
+      <div>
+        <i class="fa-solid fa-bullhorn"></i>
+        <span>공지사항</span>
+      </div>
+      <div>
+        <i class="fa-regular fa-hand"></i>
+        <span>케톡 안녕가이드</span>
+      </div>
+      <div>
+        <i class="fa-regular fa-circle-question"></i>
+        <span>고객센터/운영정책</span>
+      </div>
+      <div>
+        <i class="fa-solid fa-info"></i>
+        <span>앱 관리</span>
       </div>
     </div>
 
@@ -71,5 +161,9 @@
         </li>
       </ul>
     </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
   </body>
 </html>

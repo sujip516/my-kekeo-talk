@@ -1,0 +1,109 @@
+.setting-header_bar {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding);
+}
+
+.setting-bar_column {
+  width: 33%;
+}
+
+.setting-bar_column:first-child i {
+  font-size: 25px;
+}
+
+.setting-bar_column:nth-child(2) {
+  text-align: center;
+}
+
+.setting-bar_column:nth-child(2) h1 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-right: 25px;
+}
+
+.setting-bar_column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.setting-bar_column:last-child i {
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+.setting-user_message {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.setting-user_message h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.setting-user_message span {
+  font-size: 15px;
+  color: var(--gray);
+  margin-top: 10px;
+}
+
+.setting-user_bar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 50px;
+  padding: var(--padding);
+}
+
+.setting-status_message {
+  width: 100px;
+  height: 20px;
+  padding: 3px;
+  font-size: 12px;
+  position: absolute;
+  right: 20px;
+  border: 1px solid var(--gray);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setting-icon_column {
+  border-top: 1px solid var(--lightgray);
+  margin-top: 50px;
+  padding: var(--padding);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.setting-icon_column div {
+  margin-top: 50px;
+}
+
+.setting-icon_column i {
+  width: 60px;
+  font-size: 25px;
+}
+
+.setting-icon_column span {
+  width: 100px;
+  font-size: 18px;
+}
+
+.new-dot {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--red);
+}
